@@ -28,7 +28,7 @@ end
 
 
 function love.update(dt)
-	plant:update()
+	plant:update(dt)
 	UI:update(plant)
 end
 
